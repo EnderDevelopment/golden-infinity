@@ -1,0 +1,12 @@
+name: Manifestation
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  manifestation:
+    description: Call the gold manifestation or make a balanced wish.
+    usage: /manifestation call|wish <food|arrows|experience|gold>
+    aliases: [manifest]
+permissions:
+  manifestation.call:
+    default: true
